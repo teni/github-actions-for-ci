@@ -17,6 +17,7 @@ jobs:
     strategy:
       matrix:
         node-version: [12.x, 14.x, 16.x]
+        os: [windows-2016, ubuntu-latest]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/   More comments
 
     steps:
